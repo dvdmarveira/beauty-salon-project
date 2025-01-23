@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecalho {
+  background: #fd8c00;
+  width: 100%;
+  height: 87px;
+  display: flex;
+}
+
+.emailcabecalhoimg {
+  margin-top: 49px;
+  margin-left: 116px;
+}
+
+.emailcabecalho {
+  margin-top: 50px;
+  margin-left: 15px;
+  color: #ffffff;
+}
+
+.phonecabecalhoimg {
+  margin-top: 49px;
+  margin-left: 116px;
+}
+
+.phonecabecalho {
+  margin-top: 50px;
+  margin-left: 15px;
+  color: #ffffff;
+}
+
+.whatsappcabecalhoimg {
+  margin-top: 49px;
+  margin-left: 116px;
+}
+
+.whatsappcabecalho {
+  margin-top: 50px;
+  margin-left: 15px;
+  color: #ffffff;
+}
+
+.iconescabecalho {
+  margin-top: 50px;
+  margin-left: 520px;
+}
