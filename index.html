@@ -4,25 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/style/style.css">
-    <script defer src="src/script/script.js"></script>
+
+    <!-- Título da página -->
     <title>Projeto Salão</title>
+
+    <!-- Estilos da página -->
+    <link rel="stylesheet" href="/src/style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+
+
+    <!-- JavaScript -->
+    <script defer src="src/script/script.js"></script>
+
 </head>
 
 <body>
+
     <div class="cabecalho">
-        <div class="emailcabecalhoimg"><img src="/src/assets/imgs/email.png" alt="Ícone de email"></div>
-        <p class="emailcabecalho">contato@salao.senac.com.br</p>
-        <div class="phonecabecalhoimg"><img src="/src/assets/imgs/phone.png" alt="Ícone de telefone"></div>
-        <p class="phonecabecalho">(00) 0000-0000</p>
-        <div class="whatsappcabecalhoimg"><img src="/src/assets/imgs/whatsapp.png" alt="Ícone de whatsapp"></div>
-        <p class="whatsappcabecalho">(00) 00000-0000</p>
+        <div class="emailcabecalhoimg"><span class="bi bi-envelope-paper" style="color: #fff;"></span></div>
+        <span class="emailcabecalho">contato@salao.senac.com.br</span>
+        <div class="phonecabecalhoimg"><span class="bi bi-telephone-forward" style="color: #fff;"></span></div>
+        <span class="phonecabecalho">(00) 0000-0000</span>
+        <div class="whatsappcabecalhoimg"><span class="bi bi-whatsapp" style="color: #fff;"></span></div>
+        <span class="whatsappcabecalho">(00) 00000-0000</span>
         <div class="iconescabecalho">
-            <img src="/src/assets/imgs/youtube.png" alt="Ícone do youtube">
-            <img src="/src/assets/imgs/instagram.png" alt="Ícone do instagram">
-            <img src="/src/assets/imgs/facebook.png" alt="Ícone do facebook">
+            <a href="/"><span class="bi bi-youtube" style="color: #fff;"></span></a>
+            <a href="/"><span class="bi bi-instagram" style="color: #fff;"></span></a>
+            <a href="/"><span class="bi bi-facebook" style="color: #fff;"></span></a>
         </div>
     </div>
+
+    <div class="navbar">
+        <div class="logo">
+            <a href="/">
+                <img src="./src/assets/imgs/logoSenac.png" alt="Logo do SENAC" />
+            </a>
+        </div>
+        <span class="logo__content">PERNAMBUCO</span>
+        <nav class="navbar__navigation">
+            <ul>
+                <li>INÍCIO</li>
+                <li>SOBRE NÓS</li>
+                <li>SERVIÇOS</li>
+                <li>CONTATO</li>
+                <button class="navbar__button">
+                    <span>AGENDAR HORÁRIO</span>
+                    <span class="bi bi-clock" style="color: #fff;">
+                    </span>
+                </button>
+            </ul>
+        </nav>
+    </div>
+
 </body>
 
 </html>
