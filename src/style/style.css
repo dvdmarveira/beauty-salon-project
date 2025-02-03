@@ -11,31 +11,31 @@
 .cabecalho {
   background: #fd8c00;
   width: 100%;
-  height: 5.4735rem;
+  height: 3.5rem;
   display: flex;
   font-family: "Inter";
 }
 
 .emailcabecalhoimg {
-  margin-top: 49px;
+  margin-top: 25px;
   margin-left: 116px;
 }
 
 .emailcabecalho {
-  margin-top: 50px;
+  margin-top: 26px;
   margin-left: 10px;
   font-size: 13px;
   color: #fff;
 }
 
 .phonecabecalhoimg {
-  margin-top: 49px;
+  margin-top: 25px;
   margin-left: 116px;
 }
 
 .phonecabecalho {
   display: inline;
-  margin-top: 50px;
+  margin-top: 26px;
   margin-left: 10px;
   white-space: nowrap;
   font-size: 13px;
@@ -43,12 +43,12 @@
 }
 
 .whatsappcabecalhoimg {
-  margin-top: 49px;
+  margin-top: 25px;
   margin-left: 116px;
 }
 
 .whatsappcabecalho {
-  margin-top: 50px;
+  margin-top: 26px;
   margin-left: 10px;
   white-space: nowrap;
   font-size: 13px;
@@ -57,7 +57,7 @@
 
 .iconescabecalho {
   display: flex;
-  margin-top: 50px;
+  margin-top: 26px;
   margin-left: 415px;
   gap: 15px;
 }
@@ -67,7 +67,7 @@
 .navbar {
   display: flex;
   width: 100%;
-  height: 8.5rem;
+  height: 7rem;
   font-family: "Syne";
 }
 
@@ -127,4 +127,164 @@
 
 .navbar .navbar__navigation button:hover {
   text-decoration: underline;
+}
+
+/* CONTEÚDO PRINCIPAL - BANNER */
+.main__banner {
+  display: flex;
+  flex-direction: column;
+  width: 1fr;
+  height: 580px;
+  font-family: "Syne";
+  color: #fff;
+  gap: 30px;
+}
+
+.main__banner h1 {
+  letter-spacing: 2px;
+  font-size: 37px;
+  margin-top: 160px;
+  font-weight: 600;
+}
+
+.main__content .main__banner__p {
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+.main__banner__title,
+.main__banner__p,
+.main__banner__button {
+  margin-left: 30px;
+}
+
+.main__banner img {
+  max-width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.main__banner button {
+  align-self: start;
+  padding: 15px 25px;
+  background: #fd8c00;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.main__banner a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Syne";
+  letter-spacing: 1.1px;
+  font-weight: 500;
+}
+
+/* SOBRE */
+.main__content__about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 200px;
+}
+
+.main__content__about,
+.main__content__about__title,
+.main__content__about__p {
+  grid-column: 1;
+  margin-left: 90px;
+  font-family: "Syne";
+}
+
+.main__content__about .title1 {
+  font-size: 20px;
+  color: #015498;
+  letter-spacing: 2px;
+}
+
+.main__content__about .title2 {
+  font-size: 23px;
+  color: #fd8c00;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 4px;
+  margin-bottom: 30px;
+}
+
+.main__content__about__p {
+  color: #015498;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  max-width: 470px;
+  font-family: "Inter";
+  line-height: 20px;
+}
+
+.main__content__about img {
+  max-width: 100%;
+  width: 555px;
+  grid-column: 2;
+  align-self: start;
+  /* ALTERNATIVA */
+  position: absolute;
+  right: 1px;
+  top: 42rem;
+}
+
+.section__text__p1 {
+  color: #fd8c00;
+  font-family: "Syne";
+  font-size: 23px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.title {
+  color: #015498;
+  font-family: "Syne";
+  font-size: 35px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.main__content__services__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 50px;
+  gap: 20px;
+}
+
+.service_card {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: rgba(1, 84, 152, 0.29);
+  height: 240px;
+  font-family: "Syne";
+  font-size: 15px;
+  color: #015498;
+  letter-spacing: 1.5px;
+  position: relative;
+}
+
+.button_service {
+  align-self: center;
+  background: #fd8c00;
+  padding: 12px 35px;
+  border: none;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 25px;
+  cursor: pointer;
+}
+
+.button_service a {
+  font-family: "Syne";
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
 }
