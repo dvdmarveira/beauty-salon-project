@@ -288,3 +288,52 @@
   color: #fff;
   text-decoration: none;
 }
+
+.marketing__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.marketing__content img {
+  width: 50vw;
+  height: 454px;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+.content_marketing {
+  color: #fff;
+  margin: 250px 0px 0px 35px;
+}
+
+.content_marketing span,
+h1 {
+  font-family: "Syne";
+  letter-spacing: 1.5px;
+}
+
+.content_marketing h1 {
+  color: #fd8c00;
+}
+
+.content_marketing p {
+  font-family: "Inter";
+  font-size: 13px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.content_marketing button {
+  background-color: #fd8c00;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.content_marketing a {
+  text-decoration: none;
+  color: #fff;
+}
